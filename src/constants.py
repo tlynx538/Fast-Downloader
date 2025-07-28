@@ -1,4 +1,5 @@
 # file: src/constants.py
+# author: tlynx538 (Vinayak Jaiwant Mooliyil)
 # --- Constants for Chunk Size Calculation (Highly Recommended) ---
 # Define base chunk sizes
 _CHUNK_SIZE_SMALL_FILE = 256 * 1024  # 256 KB for files < 10MB

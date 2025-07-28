@@ -1,4 +1,5 @@
 # file: main.py
+# author: tlynx538 (Vinayak Jaiwant Mooliyil)
 import logging
 import os
 import sys

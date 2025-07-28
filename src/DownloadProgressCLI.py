@@ -1,3 +1,6 @@
+# file: src/DownloadProgressCLI
+# author: tlynx538 
+# author: tlynx538 (Vinayak Jaiwant Mooliyil)
 import threading
 import time
 from queue import Queue

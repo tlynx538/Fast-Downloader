@@ -1,4 +1,5 @@
 # file: src/DownloaderUtils.py
+# author: tlynx538 (Vinayak Jaiwant Mooliyil)
 import os 
 import shutil 
 from urllib.parse import unquote, urlparse 
@@ -278,7 +279,7 @@ class DownloaderUtils:
             # Catch any other unexpected errors during cleanup
             _logger.exception(f"An unexpected error occurred during cleanup of temporary directory '{temp_dir}': {e}")
             # Same as above, just logging.
-            
+
     @staticmethod
     def format_bytes(bytes_value: int) -> str:
         """
